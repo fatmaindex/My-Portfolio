@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.186f9caf.css",
+    "main.js": "/My-Portfolio/static/js/main.db75d3f1.js",
+    "static/media/smallapps.PNG": "/My-Portfolio/static/media/smallapps.ca7568eb323b605d3732.PNG",
+    "static/media/lumia.PNG": "/My-Portfolio/static/media/lumia.c4bff1e95a01633ecfa8.PNG",
+    "static/media/Fatma-Gamal.cv.pdf": "/My-Portfolio/static/media/Fatma-Gamal.cv.7b1b1fb26823b6d38cc8.pdf",
+    "static/media/Capture3.avif": "/My-Portfolio/static/media/Capture3.25db8f78abdc392710d6.avif",
+    "static/media/capture5.avif": "/My-Portfolio/static/media/capture5.d1c6bf7c8a7d6f397d77.avif",
+    "static/media/Capture.avif": "/My-Portfolio/static/media/Capture.a45bd1b76da145fa5ff0.avif",
+    "static/media/mainImg.avif": "/My-Portfolio/static/media/mainImg.e567940dc3aa6176f22e.avif",
+    "static/media/Capture2.avif": "/My-Portfolio/static/media/Capture2.4003a2d75abfb5958658.avif",
+    "static/media/capture4.avif": "/My-Portfolio/static/media/capture4.57a5ea8ae0bf381d4156.avif",
+    "static/media/fatmalogo.svg": "/My-Portfolio/static/media/fatmalogo.db37f40a416a391ab099b5ed7f64eb81.svg",
+    "static/media/undraw_online_resume_re_ru7s.svg": "/My-Portfolio/static/media/undraw_online_resume_re_ru7s.491e150f35ea5ac838bfb53a70cac6fe.svg",
+    "static/media/icon-front (1).svg": "/My-Portfolio/static/media/icon-front (1).b6dca43efb9919327641b7f9c7756dcb.svg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.186f9caf.css.map": "/My-Portfolio/static/css/main.186f9caf.css.map",
+    "main.db75d3f1.js.map": "/My-Portfolio/static/js/main.db75d3f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.186f9caf.css",
+    "static/js/main.db75d3f1.js"
+  ]
+}
