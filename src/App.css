@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
+html,
+body {
+  overflow-x: hidden !important;
+  background-color: var(--black);
+}
+:root {
+  --pink: rgb(199, 56, 151);
+  --lightBlack: rgb(33, 33, 33);
+  --textColor: rgb(130, 130, 130);
+  --wight: rgb(249, 249, 249);
+  --black: rgb(25, 25, 25);
+  --cardPG: rgb(21, 21, 21);
+  --cardborder: rgb(63, 62, 62);
+}
+.light {
+  --pink: rgb(199, 56, 151);
+  --wight: rgb(14, 13, 13);
+  --lightBlack: rgb(227, 230, 243);
+  --black: rgb(200, 201, 207);
+  --textColor: rgb(130, 130, 130);
+  --cardPG: rgb(227, 230, 243);
+  border: var(--wight);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Navbar {
+    background-color: var(--lightBlack);
+    box-shadow: 0 0 9px 2px #535353;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar {
+  width: 8px;
+  height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-track {
+  background: #212121;
+  box-shadow: inset 0 0 5px #333333;
+  border: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  background-color: var(--pink);
+  border-radius: 5px;
+}
+.container {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important; 
+}
+
+input[type="text"]:-webkit-autofill,
+input[type="email"]:-webkit-autofill,
+input[type="password"]:-webkit-autofill {
+  -webkit-text-fill-color: var(--textColor) !important;
+  -webkit-box-shadow: 0 0 0px 1000px var(--lightBlack) inset !important;
+  box-shadow: 0 0 0px 1000px var(--lightBlack) inset !important;
 }

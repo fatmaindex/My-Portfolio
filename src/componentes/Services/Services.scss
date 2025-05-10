@@ -1,0 +1,109 @@
+.Services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.secTitle {
+  color: var(--wight);
+  font-size: 35px;
+  margin-bottom: 1.5rem;
+}
+.mainDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.servicCard {
+  background-color: var(--cardPG);
+  color: var(--wight);
+  border: 1px solid #272626;
+  padding: 2rem;
+  border-radius: 4px;
+  height: auto;
+  width: 380px;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  &:hover {
+    border: 1px solid #d81698;
+  }
+  .servicName {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 70px;
+    font-size: 18px;
+  }
+  .servic {
+    height: 80px;
+    color: var(--textColor);
+    font-size: 16px;
+    overflow: hidden;
+    p {
+      text-align: start;
+    }
+  }
+  .iconDiv {
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    .icon {
+      color: var(--pink);
+      font-size: 50px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .Services {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .mainDiv {
+    width: 100% !important;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .servicCard {
+    padding: 1rem 1rem;
+  }
+}

@@ -1,0 +1,173 @@
+.Contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactTitle {
+  color: var(--wight);
+  font-size: 35px;
+  margin-bottom: 2rem;
+  span {
+    color: var(--pink);
+  }
+}
+.mainContact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.inputsDiv {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.towInputs {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.input1,
+.input2 {
+  width: 49%;
+  box-shadow: 0 0 9px 2px #141414;
+  border: none;
+  background-color: var(--lightBlack);
+  padding: 7px 10px;
+  border-radius: 4px;
+  outline: none;
+  color: var(--textColor);
+  font-size: 16px;
+  ::placeholder {
+    color: var(--textColor);
+  }
+}
+.input3,
+.input4 {
+  width: 100%;
+  box-shadow: 0 0 9px 2px #141414;
+  background-color: var(--lightBlack);
+  padding: 7px 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: var(--textColor);
+  ::placeholder {
+    color: var(--textColor);
+  }
+}
+.informations {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.infoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  color: var(--wight);
+  .icon {
+    color: var(--pink);
+    font-size: 22px;
+  }
+}
+.sendBtn {
+  font-family: inherit;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  background: #c73897;
+  color: #fff;
+  padding: 8px 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.sendBtn span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+.sendBtn svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+.sendBtn:hover .svg-wrapper {
+  animation: fly-1 0.4s ease-in-out infinite alternate;
+}
+.sendBtn:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+.sendBtn:hover span {
+  transform: translateX(20em);
+}
+.sendBtn:active {
+  transform: scale(0.95);
+}
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+.iconsDiv {
+  display: flex;
+  gap: 1rem;
+  .iconDiv {
+    background-color: var(--lightBlack);
+    border-radius: 50%;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 8px #c73897, 0 0 9px #fe0eae, 0 0 12px #c73897,
+        0 0 17px #c73897;
+    }
+    .icon {
+      color: var(--pink);
+      font-size: 20px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .Contact {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .mainContact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .inputsDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
