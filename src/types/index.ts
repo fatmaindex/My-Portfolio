@@ -9,6 +9,9 @@ export interface SectionProps {
 }
 
 export interface Project {
+    demo?: string;
+  demoLabel?: string;
+  code?: string;
   id: string;
   title: string;
   description: string;
@@ -17,6 +20,7 @@ export interface Project {
   githubUrl?: string;
   imageUrl: string;
   featured?: boolean;
+
 }
 
 export interface SkillCategory {

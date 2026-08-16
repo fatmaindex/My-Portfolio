@@ -63,7 +63,7 @@ function ProjectCard({ project: p }: { project: Project }) {
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 text-sm text-primary transition-transform duration-300 hover:translate-x-0.5"
             >
-              Live demo <ArrowUpRight className="size-4" />
+              {p.demoLabel ?? "Live demo"} <ArrowUpRight className="size-4" />
             </a>
           ) : null}
         </div>
@@ -96,4 +96,3 @@ export function Projects() {
     </section>
   );
 }
-

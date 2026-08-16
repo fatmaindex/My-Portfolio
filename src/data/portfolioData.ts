@@ -106,12 +106,13 @@ export const mindset = {
 
 export type Project = {
   title: string;
+  image: string;
   kind: string;
   blurb: string;
   stack: string[];
-  code?: string;
   demo?: string;
-  image: string;
+  demoLabel?: string;
+  code?: string;
   featured?: boolean;
 };
 
@@ -191,16 +192,17 @@ export const projects: Project[] = [
   //     "High-fidelity Figma-to-code translation with interactive Chart.js financial visualizations and reusable sidebars, cards and tables.",
   //   stack: ["Angular", "SASS", "Chart.js"],
   // },
-   {
-    title: "Infra",
+ {
+  title: "Infra",
     image: "infra",
     kind: "Frontend Project (Freelance) ",
     blurb:
       "Developed an infrastructure management page for tracking resources and monitoring project progress. Built interactive components for real-time data visualization. Optimized SASS preprocessing to support a fully responsive design, ensuring a seamless user experience across devices.",
     stack: ["Angular", "HTML", "SASS", "TypeScript"],
     demo: "https://infra.gov.sa/",
-    code: "https://github.com/fatmaindex/infra",
-  },
+  demoLabel: "Live",
+  
+},
 ];
 
 export const skillGroups = [
