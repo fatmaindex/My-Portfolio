@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { profile } from "@/data/portfolioData";
+import projMatrixElectronics from "@/assets/matrix-electronics.PNG";
 import projSmartcity from "@/assets/smart-city.avif";
 import projEcommerce from "@/assets/Ecommerce.avif";
 import projLumia from "@/assets/lumia.avif";
@@ -28,6 +29,7 @@ export const navLinks = [
 ];
 
 export const projectImages: Record<string, string> = {
+    matrixelectronics: projMatrixElectronics,
     smartcity: projSmartcity,
     ecommerce: projEcommerce,
     lumia: projLumia,
@@ -54,5 +56,3 @@ export const socials = [
     { icon: FaGithub, href: profile.github, label: "GitHub" },
     { icon: Mail, href: `mailto:${profile.email}`, label: "Email" },
 ];
-
-

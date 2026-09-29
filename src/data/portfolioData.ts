@@ -118,6 +118,24 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Matrix Electronics",
+    image: "matrixelectronics",
+    kind: "Full Stack E-Commerce",
+    blurb:
+      "Full-stack e-commerce platform for electronics components and IoT kits, built with Next.js and Supabase. Custom product-variant system with a Quick View modal, atomic stock reservation on checkout, multiple payment flows (COD, WhatsApp, wallets, bank transfer) with one-tap WhatsApp order confirmation, guest-cart merge on login, and resilient email notifications via Resend.",
+    stack: [
+      "Next.js",
+      "React",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Supabase",
+      "Resend",
+    ],
+    code: "https://github.com/fatmaindex/matrix-electronics",
+    demo: "https://matrix-electronics-7etb.vercel.app/",
+    featured: true,
+  },
+  {
     title: "Aman Smart City",
     image: "smartcity",
     kind: "Graduation Project ",
@@ -164,35 +182,7 @@ export const projects: Project[] = [
   //   stack: ["Angular", "TypeScript", "RxJS", "JSON Server"],
   //   code: "https://github.com/fatmaindex/ideaBankPortal",
   // },
-
-  {
-    title: "Travel",
-    image: "travel",
-    kind: "Frontend Project",
-    blurb:
-      "Developed a fully responsive and visually appealing travel website using React.js and Sass. Showcased tours and packages with a focus on delivering an engaging user experience across devices.",
-    stack: ["React.js", "Sass"],
-    code: "https://github.com/fatmaindex/travel-app",
-    demo: "https://travel-app-tpoa.vercel.app/"
-  },
-  {
-    title: "University Website",
-    image: "university",
-    kind: "Frontend Project",
-    blurb: "Built a responsive university website featuring academic info, announcements, and faculty details.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    demo: "https://fatmaindex.github.io/university-website/",
-    code: "https://github.com/fatmaindex/university.git",
-  },
-  // {
-  //   title: "Bank Dashboard",
-  //   image: "bank",
-  //   kind: "Data Product",
-  //   blurb:
-  //     "High-fidelity Figma-to-code translation with interactive Chart.js financial visualizations and reusable sidebars, cards and tables.",
-  //   stack: ["Angular", "SASS", "Chart.js"],
-  // },
- {
+{
   title: "Infra",
     image: "infra",
     kind: "Frontend Project (Freelance) ",
@@ -203,6 +193,35 @@ export const projects: Project[] = [
   demoLabel: "Live",
   
 },
+  
+  {
+    title: "University Website",
+    image: "university",
+    kind: "Frontend Project",
+    blurb: "Built a responsive university website featuring academic info, announcements, and faculty details.",
+    stack: ["HTML", "CSS", "JavaScript"],
+    demo: "https://fatmaindex.github.io/university-website/",
+    code: "https://github.com/fatmaindex/university.git",
+  },
+  {
+    title: "Travel",
+    image: "travel",
+    kind: "Frontend Project",
+    blurb:
+      "Developed a fully responsive and visually appealing travel website using React.js and Sass. Showcased tours and packages with a focus on delivering an engaging user experience across devices.",
+    stack: ["React.js", "Sass"],
+    code: "https://github.com/fatmaindex/travel-app",
+    demo: "https://travel-app-tpoa.vercel.app/"
+  },
+  // {
+  //   title: "Bank Dashboard",
+  //   image: "bank",
+  //   kind: "Data Product",
+  //   blurb:
+  //     "High-fidelity Figma-to-code translation with interactive Chart.js financial visualizations and reusable sidebars, cards and tables.",
+  //   stack: ["Angular", "SASS", "Chart.js"],
+  // },
+ 
 ];
 
 export const skillGroups = [

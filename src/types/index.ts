@@ -7,21 +7,17 @@ export interface SectionProps {
   className?: string;
   children: ReactNode;
 }
-
-export interface Project {
-    demo?: string;
-  demoLabel?: string;
-  code?: string;
-  id: string;
+export type Project = {
   title: string;
-  description: string;
-  tags: string[];
-  liveUrl?: string;
-  githubUrl?: string;
-  imageUrl: string;
+  image: string;
+  kind: string;
+  blurb: string;
+  stack: string[];
+  demo?: string;
+  demoLabel?: string;   
+  code?: string;
   featured?: boolean;
-
-}
+};
 
 export interface SkillCategory {
   category: string;
