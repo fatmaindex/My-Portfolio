@@ -26,13 +26,13 @@ export function Hero() {
 
           {/* Content Section (7 columns) */}
           <div className="animate-rise min-w-0 lg:col-span-7">
-            <span className="inline-flex items-center gap-2.5 rounded-full border border-primary/30 bg-primary/10 px-3.5 py-1.5 font-mono text-[11px] uppercase tracking-[0.22em] text-primary backdrop-blur-md">
-              <span className="relative flex size-2">
-                <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75" />
-                <span className="relative inline-flex size-2 rounded-full bg-primary" />
-              </span>
-              Available for work 
-            </span>
+            {/* <span className="inline-flex items-center gap-2.5 rounded-full border border-primary/30 bg-primary/10 px-3.5 py-1.5 font-mono text-[11px] uppercase tracking-[0.22em] text-primary backdrop-blur-md"> */}
+              {/* <span className="relative flex size-2"> */}
+                {/* <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75" /> */}
+                {/* <span className="relative inline-flex size-2 rounded-full bg-primary" /> */}
+              {/* </span> */}
+              {/* Available for work  */}
+            {/* </span> */}
             <h1 className="mt-6 text-balance text-5xl font-extrabold tracking-tight leading-[1.05] sm:text-6xl md:text-7xl">
               Frontend
               <br />

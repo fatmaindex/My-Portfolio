@@ -17,7 +17,9 @@ import projEcommerce from "@/assets/Ecommerce.avif";
 import projLumia from "@/assets/lumia.avif";
 import projTravel from "@/assets/travel.avif";
 import projUniversity from "@/assets/university.avif";
-import projInfra from "@/assets/infra.avif"
+import projInfra from "@/assets/infra.avif";
+import projIdeabank from "@/assets/ideabank.PNG"
+
 
 export const navLinks = [
 
@@ -33,7 +35,7 @@ export const projectImages: Record<string, string> = {
     smartcity: projSmartcity,
     ecommerce: projEcommerce,
     lumia: projLumia,
-    //   ideabank: projIdeabank,
+      ideabank: projIdeabank,
     travel: projTravel,
     university: projUniversity,
     infra: projInfra
